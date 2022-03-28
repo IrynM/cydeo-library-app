@@ -1,0 +1,8 @@
+LOGIN TASKS
+TC#2:
+Task summary:
+-> Create a new feature file named Login.feature
+-> Create 2 scenarios for different user logins for: librarian,
+student.
+-> Create new step definition named Login_StepDefinitions
+class and implement these 2 scenarios.

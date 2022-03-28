@@ -1,0 +1,8 @@
+TC #6: SCENARIO OUTLINES/TEMPLATES
+
+TASK SUMMARY: Data Driven Testing with different user accounts
+
+1- Create a new feature file named LoginWithDifferentUsers.feature
+2- As a user, I should be able to login with different users using their
+correct emails and passwords. When I login, I should be able to
+see username in the account username section. 

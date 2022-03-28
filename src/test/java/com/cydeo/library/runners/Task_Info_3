@@ -1,0 +1,7 @@
+Task summary:
+1- Create a new feature file named LoginWithParameters.feature
+2- Create 2 scenarios for different user logins with parameterization:
+• librarian
+• student
+3- Create new snippets and implement them in step_definitions:
+• Login_StepDefinitions

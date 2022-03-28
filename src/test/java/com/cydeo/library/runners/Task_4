@@ -1,0 +1,11 @@
+TC #4: Task summary:
+
+1- Create new scenario in “LoginWithParameters.feature” named:
+“Login as librarian in the same line”
+2- Implement the same logic you created before. But you should
+handle login in one scenario step
+3- Create new snippets and implement them in
+“Login_StepDefinitions” class and implement these 2 scenarios.
+
+
+Note: Follow POM for any web element locating in any page.
