@@ -35,11 +35,13 @@ public class Login_StepDefinitions {
 
     @Then("verify user is in library page")
     public void verifyUserIsInLibraryPage() {
-        String expectedTitle = "Login - Library";
+       // String expectedTitle = "Login - Library";
+        String expectedTitle = "Librery";
         String actualTitle =Driver.getDriver().getTitle();
         Assert.assertEquals(expectedTitle, actualTitle);
         Driver.closeDriver();
     }
+
 
 
     @Given("Student is on log in page")

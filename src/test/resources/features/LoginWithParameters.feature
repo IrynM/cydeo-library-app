@@ -1,5 +1,5 @@
 Feature: User should be able to login
-  @test2 @smoke
+  @smoke
   Scenario: Librarian Librarian should be able to log in
     Given user is on log in page
     Then user enter username "librarian2@library"
@@ -7,6 +7,7 @@ Feature: User should be able to login
     When user click login button
     Then verify user is in library page
 
+  @test2
   Scenario: Student should be able to log in
     Given user is on log in page
     Then user enter username "student2@library"

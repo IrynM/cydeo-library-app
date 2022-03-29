@@ -48,9 +48,6 @@ public class LoginWithPArameters_Step_Definition {
 
 
 
-
-
-
     @Then("verify table have following:")
     public void verifyTableHaveFollowing(List<String> expectedList) {
         List<WebElement> actualelements = dashboard.tableElements;
@@ -60,7 +57,7 @@ public class LoginWithPArameters_Step_Definition {
             actual.add(each.getText());
 
         }
-        Assert.assertEquals(actual, expectedList);
+        Assert.assertEquals(expectedList, actual);
     }
 
 
