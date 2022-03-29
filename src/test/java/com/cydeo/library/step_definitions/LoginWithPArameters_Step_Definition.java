@@ -60,7 +60,7 @@ public class LoginWithPArameters_Step_Definition {
             actual.add(each.getText());
 
         }
-        Assert.assertEquals(expectedList, actual);
+        Assert.assertEquals(actual, expectedList);
     }
 
 
